@@ -10,6 +10,7 @@
 ## API:
 -URL: http://127.0.0.1:8000/
 **Tours
+'''
 -GET: {{URL}}api/v1/touts/ :retourne tout les visites ( vous devez vous authentifier pour d'abord )
 -GET: {{URL}}api/v1/touts/:id :retourne une visite
 -GET: {{URL}}api/v1/touts/top-5-cheap : retourne les 5 visites les moins chers
@@ -17,8 +18,10 @@
 -GET: {{URL}}api/v1/touts//monthly-plan/:year :retourne les visites de chaque mois dans une année
 -POST: {{URL}}api/v1/touts/ :creer une visite
 -DEL: {{URL}}api/v1/touts/ :supprimer une visite
+'''
 
 **Users
+'''
 -POST: {{URL}}api/v1/users/signup :créer une compte et se connecter
 --exemple de corps JSON pour la création de compte:
 {
@@ -40,3 +43,4 @@
     "email": "jonasuser@gmail.com"
 }
 -PATCH: {{URL}}api/v1/users/resetPassword :change mdp
+'''
