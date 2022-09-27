@@ -5,7 +5,7 @@
 - Stape 1:
 ```# npm run ./dev-data/data/import-dev-data.js --delete```
 - Stape 2:
-``# npm run ./dev-data/data/import-dev-data.js --import```
+```# npm run ./dev-data/data/import-dev-data.js --import```
 
 ### API:
 -URL: http://127.0.0.1:8000/
